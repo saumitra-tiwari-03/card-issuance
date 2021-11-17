@@ -10,5 +10,10 @@ public class RequestController {
 	public String createDebitCardRequest() {
 		return "Debit Card Request Created";
 	}
+	
+	@GetMapping("/getCard")
+	public String getCard() {
+		return "12345678";
+	}
 
 }
