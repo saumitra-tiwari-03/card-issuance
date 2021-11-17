@@ -13,7 +13,7 @@ public class RequestController {
 	
 	@GetMapping("/getCard")
 	public String getCard() {
-		return "12345678";
+		return "xxxxxxxxxxx";
 	}
 
 }
